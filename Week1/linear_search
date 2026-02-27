@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main (){
+    int arr[]={2,4,3,5,35,43,22},key;
+    printf("Enter the num to use.");
+    scanf("%d",&key);
+    for(int i=1;i<=7;i++){
+        if(arr[i]==key){
+            printf("the number is found at %d",(i+1));
+            break;
+        }
+    }
+}
